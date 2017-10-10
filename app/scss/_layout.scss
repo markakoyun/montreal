@@ -1,0 +1,372 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 16px;
+    }
+    
+    button {
+        font-family: 'Abel', sans-serif;
+    }
+    
+    .max-width1k {
+        max-width: 1000px;
+    }
+    
+    body {
+        font-family: 'Abel', sans-serif;
+        font-size: 16px;
+        letter-spacing: 5px;
+    }
+    
+    .header {
+        background-color: $primary-color;
+        padding-top: 40px;
+    }
+    
+    .headerNav:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    
+    .logo {
+        float: left;
+    }
+    
+    .menu {
+        background-color: $secondary-color;
+        height: 40px;
+        width: 50px;
+        padding: 10px 5px 5px 10px;
+        text-align: center;
+        color: $primary-color;
+        font-size: 1rem;
+        float: right;
+    }
+    
+    .headerContent {
+        padding: 110px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        h1 {
+            color: $secondary-color;
+            text-transform: uppercase;
+            max-width: 700px;
+            font-size: 7rem;
+            margin: 0;
+        }
+        p {
+            color: $white-color;
+            font-size: 1rem;
+            margin-bottom: 30px;
+        }
+        button {
+            background-color: $primary-color;
+            padding: 20px 40px;
+            color: $white-color;
+            font-size: 1rem;
+            text-transform: uppercase;
+            border-radius: 25px;
+            border: solid 1px $secondary-color;
+            transition: all .5s ease-in;
+            &:hover {
+                background-color: $secondary-color;
+                color: $primary-color;
+            }
+        }
+    }
+    
+    .aboutQuote {
+        background-color: $secondary-color;
+        text-align: center;
+        padding: 80px 0;
+    }
+    
+    .aboutServices {
+        padding: 120px 0;
+        img {
+            background-color: $secondary-color;
+            padding: 20px;
+        }
+        h2 {
+            text-transform: uppercase;
+            color: $secondary-color;
+            font-size: 3.125rem;
+            margin: 30px 0 30px 10px;
+        }
+        p {
+            font-size: 0.9rem;
+        }
+        .btnDefault {
+            text-transform: uppercase;
+            border: solid 1px $secondary-color;
+            padding: 20px 80px;
+            background-color: $white-color;
+            border-radius: 25px;
+            margin-top: 60px;
+            transition: all .5s ease-in;
+            &:hover {
+                background-color: $secondary-color;
+                color: $primary-color;
+            }
+        }
+    }
+    
+    .aboutStats {
+        background-color: $primary-color;
+        padding: 80px 0;
+        img {
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 4rem;
+            color: $white-color;
+            margin-bottom: 20px;
+        }
+        p {
+            text-transform: uppercase;
+            color: $secondary-color;
+            font-size: 1.125rem;
+            letter-spacing: 2px;
+        }
+    }
+    
+    .aboutPortfolio {
+        padding: 40px 0;
+        h2 {
+            text-transform: uppercase;
+            color: $secondary-color;
+            font-size: 3.125rem;
+        }
+        p {
+            padding: 30px 0;
+        }
+        .sortBtn {
+            padding: 0;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .btnDefault {
+            text-transform: uppercase;
+            border: solid 1px $secondary-color;
+            padding: 20px 80px;
+            background-color: $white-color;
+            border-radius: 25px;
+            margin-top: 50px;
+            transition: all .5s ease-in;
+            &:hover {
+                background-color: $secondary-color;
+                color: $primary-color;
+            }
+        }
+    }
+    
+    .sortBtn li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 10px;
+        button {
+            padding: 5px 20px;
+            border: 1px solid $secondary-color;
+            text-transform: capitalize;
+            font-size: 1.125em;
+            background-color: $white-color;
+            margin-bottom: 60px;
+            transition: all .5s ease-in;
+            &:hover {
+                background-color: $secondary-color;
+                color: $primary-color;
+            }
+        }
+    }
+    
+    button.active {
+        background-color: $secondary-color!important;
+    }
+    
+    .gridNopadding {
+        margin: 0!important;
+        padding: 0!important;
+    }
+    
+    .works {
+        .worksport {
+            overflow: hidden;
+        }
+        .port1 {
+            background: url(../image/port2.png) no-repeat center center scroll;
+            background-size: cover;
+            min-height: 600px;
+            transition: transform 1s ease;
+            position: relative;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        .port2 {
+            background: url(../image/port1.png) no-repeat center center scroll;
+            background-size: cover;
+            min-height: 300px;
+            transition: transform 1s ease;
+            position: relative;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        .port3 {
+            background: url(../image/port4.jpg) no-repeat center center scroll;
+            background-size: cover;
+            min-height: 300px;
+            transition: transform 1s ease;
+            position: relative;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        .port4 {
+            background: url(../image/port5.jpg) no-repeat center center scroll;
+            background-size: cover;
+            min-height: 300px;
+            transition: transform 1s ease;
+            position: relative;
+            z-index: 1;
+            ;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        .port5 {
+            background: url(../image/port3.png) no-repeat center center scroll;
+            background-size: cover;
+            min-height: 300px;
+            transition: transform 1s ease;
+            position: relative;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+    
+    .clients {
+        background-color: $primary-color;
+        padding: 50px 0;
+        h2 {
+            text-transform: uppercase;
+            color: $secondary-color;
+            font-size: 3.125rem;
+            margin-bottom: 20px;
+        }
+        p {
+            color: $white-color;
+            margin-bottom: 50px;
+        }
+    }
+    
+    .clientList {
+        padding-left: 0;
+        li {
+            display: inline-block;
+            padding: 20px 40px;
+            list-style: none;
+        }
+        &::after {
+            display: block;
+            content: '';
+            clear: both;
+        }
+    }
+    
+    .contact {
+        padding: 50px 0;
+        h2 {
+            text-transform: uppercase;
+            color: $secondary-color;
+            font-size: 3.125rem;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 80px;
+        }
+    }
+    
+    .customForm {
+        max-width: 970px;
+        margin: 0 auto;
+        input,
+        textarea {
+            border: 1px solid $primary-color;
+            height: 45px;
+            margin-bottom: 20px;
+            border-radius: 0;
+            &:placeholder-shown {
+                font-family: 'Abel', sans-serif;
+                font-size: 1rem;
+            }
+        }
+        textarea {
+            height: 175px;
+            padding-top: 10px;
+            padding-left: 10px;
+            width: 100%;
+        }
+        .inputName {
+            width: 48%;
+            margin-right: 2%;
+        }
+        .inputMail {
+            width: 50%;
+        }
+        button {
+            text-transform: uppercase;
+            border: solid 1px $secondary-color;
+            padding: 20px 80px;
+            background-color: $white-color;
+            border-radius: 25px;
+            margin-top: 30px;
+            transition: all .5s ease-in;
+            &:hover {
+                background-color: $secondary-color;
+                color: $primary-color;
+            }
+        }
+    }
+    
+    .contactDetails {
+        background-color: $secondary-color;
+        padding: 40px;
+        text-align: center;
+        ul {
+            padding-left: 0;
+        }
+        ul li {
+            list-style: none;
+            padding-top: 20px;
+            display: inline;
+            margin-right: 30px;
+        }
+        p {
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+        img {
+            padding: 10px;
+            background-color: $primary-color;
+            margin-right: 10px;
+        }
+    }
+    
+    footer {
+        padding: 60px;
+        text-align: center;
+        background-color: $primary-color;
+        p {
+            color: $white-color;
+            margin-bottom: 30px;
+        }
+        span {
+            color: $secondary-color;
+        }
+    }

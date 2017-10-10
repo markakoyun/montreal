@@ -1,0 +1,85 @@
+    @media only screen and (max-width: 991px) {
+        .aboutServices {
+            padding-right: 10px;
+            padding-left: 10px;
+            h2 {
+                margin-left: 0;
+            }
+            p {
+                margin-bottom: 40px;
+            }
+        }
+        .works {
+            .port1 {
+                min-height: 300px;
+            }
+        }
+        .clients {
+            padding-left: 10px;
+            padding-right: 10px;
+            .clientList {
+                padding-left: 0;
+                li {
+                    padding: 20px 20px;
+                    display: inline;
+                }
+            }
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        header {
+            padding: 0 10px;
+        }
+        .headerContent {
+            h1 {
+                font-size: 5rem;
+                margin-bottom: 10px;
+            }
+        }
+        .aboutStats {
+            p {
+                margin-bottom: 40px;
+            }
+        }
+        .aboutPortfolio {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .clients {
+            .clientList {
+                li {
+                    padding: 20px 0;
+                    display: block;
+                }
+            }
+        }
+        .contact {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .customForm {
+            .inputName {
+                width: 100%;
+                margin-right: 0;
+            }
+            .inputMail {
+                width: 100%;
+            }
+        }
+    }
+    
+    @media only screen and (max-width:694px) {
+        .header {
+            height: 100%;
+        }
+    }
+    
+    @media only screen and (max-width:354px) {
+        .aboutServices,
+        .aboutPortfolio {
+            .btnDefault {
+                padding: 20px 50px;
+            }
+        }
+    }

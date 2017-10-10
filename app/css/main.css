@@ -1,0 +1,442 @@
+/* line 1, ../scss/_layout.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 5, ../scss/_layout.scss */
+html {
+  font-size: 16px;
+}
+
+/* line 9, ../scss/_layout.scss */
+button {
+  font-family: 'Abel', sans-serif;
+}
+
+/* line 13, ../scss/_layout.scss */
+.max-width1k {
+  max-width: 1000px;
+}
+
+/* line 17, ../scss/_layout.scss */
+body {
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+  letter-spacing: 5px;
+}
+
+/* line 23, ../scss/_layout.scss */
+.header {
+  background-color: #17191e;
+  padding-top: 40px;
+}
+
+/* line 28, ../scss/_layout.scss */
+.headerNav:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* line 34, ../scss/_layout.scss */
+.logo {
+  float: left;
+}
+
+/* line 38, ../scss/_layout.scss */
+.menu {
+  background-color: #ffdb00;
+  height: 40px;
+  width: 50px;
+  padding: 10px 5px 5px 10px;
+  text-align: center;
+  color: #17191e;
+  font-size: 1rem;
+  float: right;
+}
+
+/* line 49, ../scss/_layout.scss */
+.headerContent {
+  padding: 110px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* line 54, ../scss/_layout.scss */
+.headerContent h1 {
+  color: #ffdb00;
+  text-transform: uppercase;
+  max-width: 700px;
+  font-size: 7rem;
+  margin: 0;
+}
+/* line 61, ../scss/_layout.scss */
+.headerContent p {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+/* line 66, ../scss/_layout.scss */
+.headerContent button {
+  background-color: #17191e;
+  padding: 20px 40px;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: solid 1px #ffdb00;
+  transition: all .5s ease-in;
+}
+/* line 75, ../scss/_layout.scss */
+.headerContent button:hover {
+  background-color: #ffdb00;
+  color: #17191e;
+}
+
+/* line 82, ../scss/_layout.scss */
+.aboutQuote {
+  background-color: #ffdb00;
+  text-align: center;
+  padding: 80px 0;
+}
+
+/* line 88, ../scss/_layout.scss */
+.aboutServices {
+  padding: 120px 0;
+}
+/* line 90, ../scss/_layout.scss */
+.aboutServices img {
+  background-color: #ffdb00;
+  padding: 20px;
+}
+/* line 94, ../scss/_layout.scss */
+.aboutServices h2 {
+  text-transform: uppercase;
+  color: #ffdb00;
+  font-size: 3.125rem;
+  margin: 30px 0 30px 10px;
+}
+/* line 100, ../scss/_layout.scss */
+.aboutServices p {
+  font-size: 0.9rem;
+}
+/* line 103, ../scss/_layout.scss */
+.aboutServices .btnDefault {
+  text-transform: uppercase;
+  border: solid 1px #ffdb00;
+  padding: 20px 80px;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 60px;
+  transition: all .5s ease-in;
+}
+/* line 111, ../scss/_layout.scss */
+.aboutServices .btnDefault:hover {
+  background-color: #ffdb00;
+  color: #17191e;
+}
+
+/* line 118, ../scss/_layout.scss */
+.aboutStats {
+  background-color: #17191e;
+  padding: 80px 0;
+}
+/* line 121, ../scss/_layout.scss */
+.aboutStats img {
+  margin-bottom: 20px;
+}
+/* line 124, ../scss/_layout.scss */
+.aboutStats h2 {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 20px;
+}
+/* line 129, ../scss/_layout.scss */
+.aboutStats p {
+  text-transform: uppercase;
+  color: #ffdb00;
+  font-size: 1.125rem;
+  letter-spacing: 2px;
+}
+
+/* line 137, ../scss/_layout.scss */
+.aboutPortfolio {
+  padding: 40px 0;
+}
+/* line 139, ../scss/_layout.scss */
+.aboutPortfolio h2 {
+  text-transform: uppercase;
+  color: #ffdb00;
+  font-size: 3.125rem;
+}
+/* line 144, ../scss/_layout.scss */
+.aboutPortfolio p {
+  padding: 30px 0;
+}
+/* line 147, ../scss/_layout.scss */
+.aboutPortfolio .sortBtn {
+  padding: 0;
+  text-align: center;
+  margin-top: 50px;
+}
+/* line 152, ../scss/_layout.scss */
+.aboutPortfolio .btnDefault {
+  text-transform: uppercase;
+  border: solid 1px #ffdb00;
+  padding: 20px 80px;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 50px;
+  transition: all .5s ease-in;
+}
+/* line 160, ../scss/_layout.scss */
+.aboutPortfolio .btnDefault:hover {
+  background-color: #ffdb00;
+  color: #17191e;
+}
+
+/* line 167, ../scss/_layout.scss */
+.sortBtn li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+/* line 171, ../scss/_layout.scss */
+.sortBtn li button {
+  padding: 5px 20px;
+  border: 1px solid #ffdb00;
+  text-transform: capitalize;
+  font-size: 1.125em;
+  background-color: white;
+  margin-bottom: 60px;
+  transition: all .5s ease-in;
+}
+/* line 179, ../scss/_layout.scss */
+.sortBtn li button:hover {
+  background-color: #ffdb00;
+  color: #17191e;
+}
+
+/* line 186, ../scss/_layout.scss */
+button.active {
+  background-color: #ffdb00 !important;
+}
+
+/* line 190, ../scss/_layout.scss */
+.gridNopadding {
+  margin: 0!important;
+  padding: 0!important;
+}
+
+/* line 196, ../scss/_layout.scss */
+.works .worksport {
+  overflow: hidden;
+}
+/* line 199, ../scss/_layout.scss */
+.works .port1 {
+  background: url(../image/port2.png) no-repeat center center scroll;
+  background-size: cover;
+  min-height: 600px;
+  transition: transform 1s ease;
+  position: relative;
+}
+/* line 205, ../scss/_layout.scss */
+.works .port1:hover {
+  transform: scale(1.1);
+}
+/* line 209, ../scss/_layout.scss */
+.works .port2 {
+  background: url(../image/port1.png) no-repeat center center scroll;
+  background-size: cover;
+  min-height: 300px;
+  transition: transform 1s ease;
+  position: relative;
+}
+/* line 215, ../scss/_layout.scss */
+.works .port2:hover {
+  transform: scale(1.1);
+}
+/* line 219, ../scss/_layout.scss */
+.works .port3 {
+  background: url(../image/port4.jpg) no-repeat center center scroll;
+  background-size: cover;
+  min-height: 300px;
+  transition: transform 1s ease;
+  position: relative;
+}
+/* line 225, ../scss/_layout.scss */
+.works .port3:hover {
+  transform: scale(1.1);
+}
+/* line 229, ../scss/_layout.scss */
+.works .port4 {
+  background: url(../image/port5.jpg) no-repeat center center scroll;
+  background-size: cover;
+  min-height: 300px;
+  transition: transform 1s ease;
+  position: relative;
+  z-index: 1;
+}
+/* line 237, ../scss/_layout.scss */
+.works .port4:hover {
+  transform: scale(1.1);
+}
+/* line 241, ../scss/_layout.scss */
+.works .port5 {
+  background: url(../image/port3.png) no-repeat center center scroll;
+  background-size: cover;
+  min-height: 300px;
+  transition: transform 1s ease;
+  position: relative;
+}
+/* line 247, ../scss/_layout.scss */
+.works .port5:hover {
+  transform: scale(1.1);
+}
+
+/* line 253, ../scss/_layout.scss */
+.clients {
+  background-color: #17191e;
+  padding: 50px 0;
+}
+/* line 256, ../scss/_layout.scss */
+.clients h2 {
+  text-transform: uppercase;
+  color: #ffdb00;
+  font-size: 3.125rem;
+  margin-bottom: 20px;
+}
+/* line 262, ../scss/_layout.scss */
+.clients p {
+  color: white;
+  margin-bottom: 50px;
+}
+
+/* line 268, ../scss/_layout.scss */
+.clientList {
+  padding-left: 0;
+}
+/* line 270, ../scss/_layout.scss */
+.clientList li {
+  display: inline-block;
+  padding: 20px 40px;
+  list-style: none;
+}
+/* line 275, ../scss/_layout.scss */
+.clientList::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+/* line 282, ../scss/_layout.scss */
+.contact {
+  padding: 50px 0;
+}
+/* line 284, ../scss/_layout.scss */
+.contact h2 {
+  text-transform: uppercase;
+  color: #ffdb00;
+  font-size: 3.125rem;
+  margin-bottom: 20px;
+}
+/* line 290, ../scss/_layout.scss */
+.contact p {
+  margin-bottom: 80px;
+}
+
+/* line 295, ../scss/_layout.scss */
+.customForm {
+  max-width: 970px;
+  margin: 0 auto;
+}
+/* line 299, ../scss/_layout.scss */
+.customForm input,
+.customForm textarea {
+  border: 1px solid #17191e;
+  height: 45px;
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+/* line 304, ../scss/_layout.scss */
+.customForm input:placeholder-shown,
+.customForm textarea:placeholder-shown {
+  font-family: 'Abel', sans-serif;
+  font-size: 1rem;
+}
+/* line 309, ../scss/_layout.scss */
+.customForm textarea {
+  height: 175px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 100%;
+}
+/* line 315, ../scss/_layout.scss */
+.customForm .inputName {
+  width: 48%;
+  margin-right: 2%;
+}
+/* line 319, ../scss/_layout.scss */
+.customForm .inputMail {
+  width: 50%;
+}
+/* line 322, ../scss/_layout.scss */
+.customForm button {
+  text-transform: uppercase;
+  border: solid 1px #ffdb00;
+  padding: 20px 80px;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 30px;
+  transition: all .5s ease-in;
+}
+/* line 330, ../scss/_layout.scss */
+.customForm button:hover {
+  background-color: #ffdb00;
+  color: #17191e;
+}
+
+/* line 337, ../scss/_layout.scss */
+.contactDetails {
+  background-color: #ffdb00;
+  padding: 40px;
+  text-align: center;
+}
+/* line 341, ../scss/_layout.scss */
+.contactDetails ul {
+  padding-left: 0;
+}
+/* line 344, ../scss/_layout.scss */
+.contactDetails ul li {
+  list-style: none;
+  padding-top: 20px;
+  display: inline;
+  margin-right: 30px;
+}
+/* line 350, ../scss/_layout.scss */
+.contactDetails p {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+/* line 354, ../scss/_layout.scss */
+.contactDetails img {
+  padding: 10px;
+  background-color: #17191e;
+  margin-right: 10px;
+}
+
+/* line 361, ../scss/_layout.scss */
+footer {
+  padding: 60px;
+  text-align: center;
+  background-color: #17191e;
+}
+/* line 365, ../scss/_layout.scss */
+footer p {
+  color: white;
+  margin-bottom: 30px;
+}
+/* line 369, ../scss/_layout.scss */
+footer span {
+  color: #ffdb00;
+}

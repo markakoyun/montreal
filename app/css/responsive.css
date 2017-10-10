@@ -1,0 +1,93 @@
+@media only screen and (max-width: 991px) {
+  /* line 2, ../scss/responsive.scss */
+  .aboutServices {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  /* line 5, ../scss/responsive.scss */
+  .aboutServices h2 {
+    margin-left: 0;
+  }
+  /* line 8, ../scss/responsive.scss */
+  .aboutServices p {
+    margin-bottom: 40px;
+  }
+
+  /* line 13, ../scss/responsive.scss */
+  .works .port1 {
+    min-height: 300px;
+  }
+
+  /* line 17, ../scss/responsive.scss */
+  .clients {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* line 20, ../scss/responsive.scss */
+  .clients .clientList {
+    padding-left: 0;
+  }
+  /* line 22, ../scss/responsive.scss */
+  .clients .clientList li {
+    padding: 20px 20px;
+    display: inline;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 31, ../scss/responsive.scss */
+  header {
+    padding: 0 10px;
+  }
+
+  /* line 35, ../scss/responsive.scss */
+  .headerContent h1 {
+    font-size: 5rem;
+    margin-bottom: 10px;
+  }
+
+  /* line 41, ../scss/responsive.scss */
+  .aboutStats p {
+    margin-bottom: 40px;
+  }
+
+  /* line 45, ../scss/responsive.scss */
+  .aboutPortfolio {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* line 51, ../scss/responsive.scss */
+  .clients .clientList li {
+    padding: 20px 0;
+    display: block;
+  }
+
+  /* line 57, ../scss/responsive.scss */
+  .contact {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* line 62, ../scss/responsive.scss */
+  .customForm .inputName {
+    width: 100%;
+    margin-right: 0;
+  }
+  /* line 66, ../scss/responsive.scss */
+  .customForm .inputMail {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 694px) {
+  /* line 73, ../scss/responsive.scss */
+  .header {
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 354px) {
+  /* line 81, ../scss/responsive.scss */
+  .aboutServices .btnDefault,
+  .aboutPortfolio .btnDefault {
+    padding: 20px 50px;
+  }
+}
